@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Segoe UI';
 }
 
 .container {
@@ -12,6 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 /* NAVBAR */
 /* NAVBAR */
@@ -39,7 +40,6 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
 }
 
@@ -76,10 +76,10 @@ nav .active {
     background-image: linear-gradient(rgba(15, 15, 15, 0.8), rgba(83, 48, 1, 0.8)), url(../img/fondohero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 810px;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 10px black;
+    height: 893px;
 }
 
 #hero h1 {
@@ -93,37 +93,37 @@ nav .active {
 
 
 #foto {
-    border: 2px solid #ccc; /* Define el estilo, ancho y color del borde */
-    border-radius: 200px; /* Añade bordes redondeados para un aspecto más suave */
+    border: 2px solid #ccc; 
+    border-radius: 200px; 
     border-style: double;
     border-color: orange;
 }
 
 #worklogo {
     position: absolute;
-    left: 10%;
+    left: 5%;
 }
 
 #studylogo {
     position: absolute;
-    right: 10%;
+    right: 5%;
 }
 
 /* CONTACTO */
 /* CONTACTO */
 
 .formulario form label {
-    margin: 3px 0; /* 10px de margen arriba y abajo, sin margen izquierda y derecha */
-    display: inline-block; /* Añadir esta propiedad para que los labels ocupen todo el ancho disponible */
-    border: 1px solid #ccc; /* Define el estilo, ancho y color del borde */
-    border-radius: 5px; /* Añade bordes redondeados para un aspecto más suave */
-    padding: 5px; /* Añade espacio interno para que el texto no esté demasiado pegado al borde */
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .formulario form input {
-    border: 1px solid #ccc; /* Establece el estilo, el ancho y el color del borde */
-    border-radius: 5px; /* Agrega bordes redondeados para un aspecto más suave */
-    padding: 5px; /* Añade espacio interno para que el texto no esté demasiado pegado al borde */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 /* BOTON */
