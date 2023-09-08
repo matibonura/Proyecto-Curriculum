@@ -68,7 +68,7 @@ nav .active {
 /* ======================================================== */
 
 
-#hero {
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ nav .active {
     height: 893px;
 }
 
-#hero h1 {
+.hero h1 {
     font-size: 3em;
 }
 
