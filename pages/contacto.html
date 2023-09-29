@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <script src="../scripts/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a href="https://www.github.com/matibonura" target="blank"><img src="../img/code.png" class="logo" alt="logo código" id="logo"></a>
+                <ul>
+                    <li><a href="../index.html">Datos Personales</a></li>
+                    <li><a href="estudios.html">Estudios</a></li>
+                    <li><a href="experiencia.html">Experiencia Laboral</a></li>
+                    <li><a href="competencia.html">Competencias</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="formulario">
+                <h1> Formulario de contacto </h1>
+                <p> Por este método podrá comunicarse ante cualquier inquietud, solicitud, duda, etc.</p> 
+                <form id="formulario_contacto">
+                    <label for="Nombre">Nombre y Apellido</label>
+                    <input type="text" id="Nombre" name="Nombre" required style="text-transform: capitalize;"><br>
+                    <label for="Email">E-Mail</label>
+                    <input type="email" id="Email" name="Email" required style="text-transform: lowercase"><br>
+                    <label for="Telefono">Teléfono</label>
+                    <input type="tel" id="Telefono" name="Telefono" required><br>
+                    <label for="Asunto">Asunto</label>
+                    <input type="text" id="Asunto" name="Asunto" required><br>
+                    <label for="Mensaje">Mensaje</label>
+                    <input type="text" id="Mensaje" name="Mensaje" required><br>
+                        <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
