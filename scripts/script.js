@@ -1,4 +1,3 @@
-console.log("hola")
 document.addEventListener("DOMContentLoaded", function() {
     var hamburger = document.querySelector(".hamburger");
     hamburger.onclick = function () {
