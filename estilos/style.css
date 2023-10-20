@@ -96,7 +96,7 @@ nav .active {
 
     nav ul li {
         display: block;
-        margin: 80px auto 0 auto;
+        margin: 70px auto 0 auto;
         text-align: center;
         transition: 0.65s;
         opacity: 0;
